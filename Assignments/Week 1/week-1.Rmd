@@ -1,0 +1,20 @@
+---
+title: "Week 1"
+author: "Anne-Marie Parkinson"
+date: "February 10, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Why I am taking this course
+
+ESM 262 is a requirement for the Environmental Data Science Focus. It would also be useful for a career in data science and management to better understand the features of GitHub and R. Knowing how to make packages in R would also be very cool. 
+
+
+## Data Science Background
+
+I took Biometry as an undergrad at UCSB a couple years ago. In that class we learned R to conduct statistics for ecology. After graduation I used for a year as a research assistant in the D'Antonio Lab. I used R to create a model using random forest to predict fire-induced mortality of conifers. Additionally, I used random froerst and partial dependence plots to understand how topographic and envrionmental variables inpacted fire mortality. Recently in Fall 2019 I took ESM 206 Introduction to Data Science with Allison Horst and I am currently taking her advanced data science class (ESM 244). In ESM 244 I am creating a Shiny App that will allow a user to explore and visualize trends in California's past fire perimeters. 
+
