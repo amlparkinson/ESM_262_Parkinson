@@ -17,12 +17,18 @@ library(tidyverse)
 # function---------------------------------
 
 temperature_converter <- function(temp_C) {
+  
+  # set parameters for the temperature
+  if (temp_C < -100) return("Tempmerature cannot be < -100")
+  if (temp_C > 100) return("Tempmerature cannot be > 100")
+  
   fahrenheit <- temp_C*(9/5) + 32
+  
   return(fahrenheit)
 }
 
-# test function
-temperature_converter(temp_C = 0)
+# test function ----------------------------
+temperature_converter(temp_C = 120)
 
 ```
 
