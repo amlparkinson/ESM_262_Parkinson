@@ -1,0 +1,28 @@
+---
+title: "Practice Function"
+author: "Anne-Marie Parkinson"
+date: "February 18, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#load packages ------------------------------
+
+library(tidyverse)
+
+# function---------------------------------
+
+temperature_converter <- function(temp_C) {
+  fahrenheit <- temp_C*(9/5) + 32
+  return(fahrenheit)
+}
+
+# test function
+temperature_converter(temp_C = 0)
+
+```
+
